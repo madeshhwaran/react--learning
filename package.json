@@ -1,0 +1,26 @@
+{
+  "name": "reactlearning",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeshhwaran/react--learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madeshhwaran/react--learning/issues"
+  },
+  "homepage": "https://github.com/madeshhwaran/react--learning#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}
