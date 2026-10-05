@@ -1,6 +1,5 @@
-# Day 1: React Core Elements
+# React Core Elements
 
-## 🎯 What I Learned Today
 1. **CDNs:** We can write React without installing anything by using CDN links (`react` and `react-dom`) in the HTML file.
 2. **React.createElement:** It takes 3 arguments: `(tag, attributes/props, children)`.
 3. **Behind the Scenes:** `React.createElement` does NOT create HTML tags directly. It creates normal **JavaScript Objects**.

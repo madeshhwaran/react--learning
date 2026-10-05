@@ -1,6 +1,4 @@
-# Day 2: Igniting the App with NPM & Vite 🔥
-
-## 🎯 What I Learned Today
+# Igniting the App with NPM & Vite 🔥
 
 1. **Why We Dropped CDNs:** Transitioned from internet CDN links to local **NPM (Node Package Manager)**. CDNs are fine for basic testing, but real-world apps need NPM to securely manage package versions, work offline, and bundle code efficiently for production.
 2. **Package.json:** Created the "ID Card" of the project (`npm init`) to keep track of installed libraries and custom scripts.
@@ -15,11 +13,14 @@
 - `app.js`: Updated to import React directly from the local `node_modules` folder.
 - `package.json` (Root Folder): Configured the `"start": "vite"` script and removed the unnecessary `"main"` field since this is a web app, not a library.
 
-## 🚀 How to Run
+## 🚀 Full Process: Setup & Run 
 
-Since the project uses a smart root-level architecture:
+Open your terminal in your **Main Project Folder** and run these commands in order:
 
-1. Open your terminal in the **Main Project Folder** (ReactLearning).
-2. Run the Vite server by typing:
-   ```bash
-   npm run start
+### 1. Install & Setup
+install React and Vite:
+```bash
+npm init -y
+npm install react react-dom
+npm install -D vite
+npm run start
