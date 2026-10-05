@@ -1,4 +1,4 @@
-# Building the Foundation: JSX & Components 🧱
+# Building the Foundation: JSX & Components
 
 1. **Using Components:** Instead of writing one huge HTML file, we now build small, separate blocks. Why? So we can write the code once and reuse it anywhere. This keeps our project clean and easy to manage.
 2. **Functional Components:** A functional component is just a normal JavaScript function with two strict rules: its name must start with a Capital letter (like `App`), and it must return JSX code.
