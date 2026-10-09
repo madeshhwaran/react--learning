@@ -1,4 +1,4 @@
-# Igniting the App with NPM & Vite 🔥
+# Igniting the App with NPM & Vite 
 
 1. **Why We Dropped CDNs:** Transitioned from internet CDN links to local **NPM (Node Package Manager)**. CDNs are fine for basic testing, but real-world apps need NPM to securely manage package versions, work offline, and bundle code efficiently for production.
 2. **Package.json:** Created the "ID Card" of the project (`npm init`) to keep track of installed libraries and custom scripts.
